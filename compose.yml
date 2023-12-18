@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+  app:
+    build: .
+    volumes:
+      - ./:/atma16
+    working_dir: /atma16
+    ports:
+      - "8888:8888"
+    tty: true

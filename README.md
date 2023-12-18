@@ -6,7 +6,7 @@
 ## 実行方法
 ### 前準備
 - `input/raw`フォルダに[データ](https://www.guruguru.science/competitions/22/data-sources)を配置
-- ターミナルで以下のコマンドを実行してDockerコンテナを作成
+- ターミナルで以下のコマンドを実行してDockerコンテナを作成（注：Kaggleのdocker image ~ 50GBのダウンロードが走ります）
 ```
 docker compose up --build
 ```
